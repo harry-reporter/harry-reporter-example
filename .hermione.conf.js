@@ -6,11 +6,11 @@ module.exports = {
   compositeImage: true,
 
   browsers: {
-    chrome: {
-      desiredCapabilities: {
-        browserName: 'chrome'
-      }
-    },
+    // chrome: {
+    //   desiredCapabilities: {
+    //     browserName: 'chrome'
+    //   }
+    // },
     firefox: {
       desiredCapabilities: {
         browserName: 'firefox'
@@ -21,5 +21,6 @@ module.exports = {
     'html-reporter/hermione': {
       path: 'hermione/hermione-html-report'
     }
+    // 'hermione-test-plugin': true
   }
 };
