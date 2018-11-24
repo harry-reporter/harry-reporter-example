@@ -4,7 +4,8 @@
   "description": "Example of usage harry-reporter with hermione",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/hermione gui ./hermione/*.hermione.js",
+    "test": "./node_modules/.bin/hermione ./hermione/*.hermione.js",
+    "test-gui": "./node_modules/.bin/hermione gui ./hermione/*.hermione.js",
     "start": "node ./bin/www"
   },
   "repository": {
@@ -22,6 +23,7 @@
     "hbs": "^4.0.1"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "hermione": "^0.90.2",
     "html-reporter": "^2.23.0",
     "mocha": "^5.2.0"
