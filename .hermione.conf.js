@@ -1,16 +1,16 @@
 const path = require('path');
 
 module.exports = {
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'http://localhost:5000',
   gridUrl: 'http://0.0.0.0:4444/wd/hub',
   compositeImage: true,
 
   browsers: {
-    // chrome: {
-    //   desiredCapabilities: {
-    //     browserName: 'chrome'
-    //   }
-    // },
+    chrome: {
+      desiredCapabilities: {
+        browserName: 'chrome'
+      }
+    },
     firefox: {
       desiredCapabilities: {
         browserName: 'firefox'

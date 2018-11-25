@@ -1,6 +1,6 @@
-# harry-reporter-example
+# project-stub
 
-Example of usage harry-reporter with hermione.
+Project stub for testing hermione-test-plugin with hermione.
 
 ## Requires
 

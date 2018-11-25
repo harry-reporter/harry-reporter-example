@@ -1,26 +1,25 @@
 {
-  "name": "harry-reporter-example",
+  "name": "project-stub",
   "version": "0.1.0",
-  "description": "Example of usage harry-reporter with hermione",
+  "description": "Project stub for testing hermione-test-plugin with hermione",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/hermione ./hermione/*.hermione.js",
     "test-gui": "./node_modules/.bin/hermione gui ./hermione/*.hermione.js",
-    "start": "node ./bin/www"
+    "start": "serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/harry-reporter/harry-reporter-example.git"
+    "url": "git+https://github.com/harry-reporter/project-stub.git"
   },
   "author": "Mikhail Durmanov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/harry-reporter/harry-reporter-example/issues"
+    "url": "https://github.com/harry-reporter/project-stub/issues"
   },
-  "homepage": "https://github.com/harry-reporter/harry-reporter-example#readme",
+  "homepage": "https://github.com/harry-reporter/project-stub#readme",
   "dependencies": {
-    "express": "^4.16.4",
-    "hbs": "^4.0.1"
+    "serve": "^10.1.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
