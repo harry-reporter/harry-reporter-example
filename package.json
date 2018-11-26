@@ -1,0 +1,31 @@
+{
+  "name": "project-stub",
+  "version": "0.1.0",
+  "description": "Project stub for testing hermione-test-plugin with hermione",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/hermione ./hermione/*.hermione.js",
+    "test-gui": "./node_modules/.bin/hermione gui ./hermione/*.hermione.js",
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harry-reporter/project-stub.git"
+  },
+  "author": "Mikhail Durmanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harry-reporter/project-stub/issues"
+  },
+  "homepage": "https://github.com/harry-reporter/project-stub#readme",
+  "dependencies": {
+    "serve": "^10.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "hermione": "^0.90.2",
+    "hermione-test-plugin": "^1.0.0",
+    "html-reporter": "^2.23.0",
+    "mocha": "^5.2.0"
+  }
+}
